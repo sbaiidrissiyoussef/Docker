@@ -37,7 +37,7 @@ My database_on_docker.sh script contains all the details on how to deploy the fo
 
 Execute the script to setup all the databases listed above, if you need less, make sure to comment the sections you don't need 
 ```
-./database_on_docker.sh
+./db_on_docker.sh
 ```
 
 
