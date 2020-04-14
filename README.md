@@ -27,7 +27,7 @@ Verify your docker installation by checking the version and running the HelloWor
 docker --version
 docker run hello-world
 ```
-#### Databases on Docker
+### Databases on Docker
 My database_on_docker.sh script contains all the details on how to deploy the following databases on Docker :
 * Oracle Database 12c
 * IBM DB2
@@ -39,7 +39,19 @@ Execute the script to setup all the databases listed above, if you need less, ma
 ```
 ./db_on_docker.sh
 ```
+### Application Servers and Middleware on Docker
+The middleware_on_docker.sh script contains the details to deploy and run the following Application Servers, Web Servers, and a Middleware server on Docker : 
+* IBM MQ 9.1.1.0
+* IBM Websphere Application Server Traditional 9
+* IBM Websphere Liberty
+* IBM HTTP Server
+* Oracle Weblogic 12c
+* Oracle HTTP Server 
 
+Unlike the databases script, the following script cannot be executed entirely. You **must** execute only the products that doesn't conflict with eachother ( for example MQ and Websphere use the same port 9043, thus shouldn't co-exist on the same server )
+```
+./middleware_on_docker.sh
+```
 
 ###### Youssef Sbai Idrissi, 2020
 
