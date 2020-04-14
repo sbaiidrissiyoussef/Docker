@@ -1,5 +1,5 @@
 # Docker
-Script automating the deployment of different solutions ( Databases, Application Servers, Web Servers ... ) on Docker.
+Scripts automating the deployment of different solutions ( Databases, Application Servers, Web Servers ... ) on Docker.
 
 
 #### Docker Introduction
