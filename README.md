@@ -27,5 +27,19 @@ Verify your docker installation by checking the version and running the HelloWor
 docker --version
 docker run hello-world
 ```
+#### Databases on Docker
+The following script contains all the details on how to deploy the following databases on Docker :
+* Oracle Database 12c
+* IBM DB2
+* PostgreSQL
+* MySQL
+* MongoDB 
+
+Execute the script to setup all the databases listed above, if you need lest make sure to comment the sections you don't need 
+```
+./database_on_docker.sh
+```
+
 
 ###### Youssef Sbai Idrissi, 2020
+
