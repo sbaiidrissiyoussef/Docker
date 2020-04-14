@@ -1,12 +1,12 @@
 #/bin/bash
 
-################      Note      ###################
+################      Note      ####################
 #
 #  - The server should connect to Internet
 #  - Setup yum repository and mount your CD
 #  - The following script was tested on RHEL 8.1
 #
-###################################################
+####################################################
 
 ## Remove podman from RHEL 8 
 yum remove podman -y
